@@ -18,12 +18,12 @@ body {
   padding: 10px;
   box-sizing: border-box;
   position: relative;
-  transform: scale(95%);
+  /* transform: scale(95%); */
 }
 
-.post-container-outer:hover {
+/* .post-container-outer:hover {
   transform: scale(100%);
-}
+} */
 
 .post-container-top {
   width: calc(100% - var(--post-container-inner-padding-double));
