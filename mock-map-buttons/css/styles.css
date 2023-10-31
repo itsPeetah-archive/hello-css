@@ -1,0 +1,26 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+#map {
+  background-size: cover;
+  background-image: url("/img/map_milan.png");
+  width: 100%;
+  position: relative;
+}
+
+#map__container {
+  width: 100vw;
+}
+
+.map__button {
+  position: absolute;
+  transform-origin: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: red;
+  box-shadow: 0px 5px 0px darkred;
+}
